@@ -1,0 +1,44 @@
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="css/master.css"> -->
+
+  <!-- card links -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+
+
+<div class="container">
+
+<div class="card text-center">
+  <div class="card-header">
+
+
+  <h2 style="color:grey">MyProfile</h2><br>
+
+  <div style="color:grey" class="card-body">
+
+    <img src="{% static 'images/p3.jpg' %}" class='img-circle' width='200px' height='200px' alt="">
+      <h3 class="card-title"><b>Syed Saheel Ahmed</b></h3>
+    <h4 class="card-text">Full Stack WebDeveloper & Python Developer</h4>
+    <p>Final Year-(B.E),Specialized in CSE.</p>
+    <p><small>Connect me at: <a href="https://www.github.com/Saheel316">Github</a></small></p>
+    <a href="#" class="btn btn-primary">Know More</a>
+    <div class="card-footer text-muted">
+      <small>Last Updated 1month ago..</small>
+    </div>
+
+  </div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+{% endblock %}
